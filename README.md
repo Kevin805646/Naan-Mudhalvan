@@ -1,112 +1,111 @@
-# Elearning-Platform-Using-MERN
-Software Engineering Course Project
+Contributors :
 
-## Description
+1. Abdul Salam N       -   abumuna7586@gmail.com
 
-This is an Elearning Platform built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It provides a comprehensive solution for delivering online courses, managing users, and facilitating communication between instructors and students.
+2. Abubuckar Siddiq    -   siddiqabubucker92@gmail.com
 
-## Features
+3. Jagan S             -   jaganjaga7929@gmail.com
 
-- User Authentication: Allows users to sign up, log in, and manage their profiles securely.
-- Course Management: Instructors can create, update, and delete courses. Students can enroll in courses and track their progress.
-- Content Delivery: Supports various multimedia formats for course materials such as videos, documents, and quizzes.
-- Discussion Forums: Enables communication between students and instructors through discussion forums for each course.
-- Responsive Design: Ensures the platform is accessible and user-friendly across devices of all sizes.
+4. Kevin Harris D      -   kevinharris1124@gmail.com
 
-## Technologies Used
+PROJECT TITLE :
 
-- **MongoDB**: NoSQL database used for storing user data, course content, and other application data.
-- **Express.js**: Backend web application framework for building APIs and handling HTTP requests.
-- **React.js**: Frontend library for building interactive user interfaces.
-- **Node.js**: JavaScript runtime environment for executing server-side code.
-- **Redux**: State management library for managing application state in React.js.
-- **JWT Authentication**: JSON Web Tokens used for user authentication and authorization.
-- **Chakra-UI**: React components for implementing Google's Material Design.
+SRM: Online Learning Platform
+SRM is a user-friendly online learning platform designed to help beginners learn programming languages like Python and Java and essential software skills such as MS Office. Built with the MERN stack, SRM offers interactive lessons, progress tracking, and a secure learning experience, making education accessible and engaging.
 
-### Home Page
-![Home Page](/screenshots/home_page.png)
+Features :
 
-### Sign Up Page
-![Sign Up Page](/screenshots/signup_page.png)
+1 .Secure Authentication: Login and signup with JWT-based security to protect user data.
 
-### Login Page
-![Login Page](/screenshots/login_page.png)
+2 .Comprehensive Course Catalog: A variety of beginner-focused programming and software courses.
 
-### User Dashboard
-![User Dashboard](/screenshots/user_dashboard.png)
+3 .Interactive Learning: Step-by-step lessons and quizzes to enhance understanding.
 
-### Admin Dashboard
-![Admin Dashboard](/screenshots/admin_dashboard.png)
+4 .Progress Tracking: Visual progress bars, milestones, and goal tracking to keep learners motivated.
 
-### User Shown to Admin
-![User Shown to Admin](/screenshots/user_shown_to_admin.png)
+5 .Responsive Design: Works seamlessly across devices, thanks to Tailwind CSS.
 
-### All Courses Shown to Admin
-![All Courses Shown to Admin](/screenshots/all_courses_admin.png)
+Tech Stack :
 
-### Courses Overview
-![Courses Overview](/screenshots/courses_overview.png)
+Frontend
 
-### Payment Gateway
-![Payment Gateway](/screenshots/payment_gateway.png)
+1 .React: For building dynamic and responsive user interfaces.
 
-### All Courses Available
-![All Courses Available](/screenshots/all_courses_available.png)
+2 .Redux Toolkit: Manages application state effectively.
 
-### User Enrolled Courses
-![User Enrolled Courses](/screenshots/user_enrolled_courses.png)
+3 .React Router DOM: Enables seamless navigation across the platform.
 
-## Installation
+4 .Tailwind CSS: Ensures modern and responsive styling.
+
+Backend
+
+1 .Node.js: Handles server-side logic.
+
+2 .Express.js: Manages APIs and backend routing.
+
+3 .JWT (JSON Web Tokens): Secures user authentication.
+
+Database
+
+MongoDB: Stores user profiles, course details, and progress data.
+
+
+Installation
+
+Prerequisites :
+1 .Node.js (v14+ recommended)
+
+2 .MongoDB (local or cloud instance)
+
+3 .Git
+
+
+Steps :
 
 1. Clone the repository:
+    #bash
+    git clone <repository_url>
+    cd <project_directory>
 
-```bash
-https://github.com/Sai-Chakradhar-Mahendrakar/Elearning-Platform-Using-MERN.git
-```
+2. Install dependencies for backend and frontend:
+    #bash
+    cd backend
+    npm install
+    cd ../frontend
+    npm install
 
-2. Navigate to the project directory:
+3. Set up environment variables:
+    #makefile
+    Create a .env file in the backend directory with the following:
 
-```bash
-cd Elearning-Platform-Using-MERN
-```
+    #makefile
+    MONGO_URI=<your_mongodb_connection_string>
+    JWT_SECRET=<your_jwt_secret>
 
-3. Install dependencies for the server:
+4. Start the servers:
 
-```bash
-cd backend
-npm install
-```
+    Backend:
 
-4. Navigate to the client directory and install client dependencies:
+    #bash
+    cd backend
+    npm start
 
-```bash
-cd frontend
-npm install
-```
+    Frontend:
 
-5. Run Frontend:
+    #bash
+    cd frontend
+    npm run dev
 
-```bash
-cd frontend
-npm start
-```
+5. Open your browser and navigate to http://localhost:3000 (or the specified port).
 
-6. Run Backend:
 
-```bash
-cd backend
-node index.js
-```
+Usage :
+1 .Sign up: Create an account on the signup page.
+2 .Log in: Access your dashboard securely.
+3 .Browse Courses: Select from a variety of beginner-friendly topics.
+4 .Track Progress: View milestones and completion status to stay on track.
 
-The application will be accessible at `http://localhost:3000`.
-
-## Contributing
-Contributions are welcome! Feel free to open an issue or submit a pull request.
-If you'd like to contribute to the project:
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Submit a pull request with a clear description of the changes.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+Future Enhancements :
+1 .Mobile App: Develop a mobile-friendly version for greater accessibility.
+2 .Discussion Forums: Foster community-based collaborative learning.
+3 .Advanced Courses: Add intermediate and advanced lessons to expand offerings.
